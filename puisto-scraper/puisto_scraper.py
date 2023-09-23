@@ -7,7 +7,7 @@ URL = "https://www.ravintolasulo.fi/lounas-puisto/"
 
 
 def get_current_weekday():
-    weekdays = ["Maanantai", "Tiistai", "Keskiviikko", "Torstai", "Perjantai"]
+    weekdays = ["Maanantai", "Tiistai", "Keskiviikko", "Torstai", "Perjantai", "Lauantai", "Sunnuntai"]
     weekday_int = datetime.datetime.now().weekday()
     return weekdays[weekday_int]
 
